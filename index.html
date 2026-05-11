@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Obsessed | Android & iOS Apps</title>
+    <meta
+      name="description"
+      content="Dev Obsessed is a simple landing page for Android and iOS app products, featuring Countdown Event as the first mobile app."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/logo2.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="Dev Obsessed home">
+          <span class="brand-mark">DO</span>
+          <span class="brand-copy">
+            <strong>Dev Obsessed</strong>
+            <span>Mobile products for Android & iOS</span>
+          </span>
+        </a>
+
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#products">Products</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Independent app maker</p>
+            <h1>Simple landing page for the mobile products I build.</h1>
+            <p class="hero-text">
+              Dev Obsessed is my product space for focused Android and iOS apps.
+              I build clean, useful experiences that are easy to understand, easy
+              to grow, and made for real daily moments.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#products">See Products</a>
+              <a class="button button-secondary" href="#about">About Me</a>
+            </div>
+
+            <dl class="hero-stats" aria-label="Quick overview">
+              <div>
+                <dt>Products</dt>
+                <dd id="product-count">01</dd>
+              </div>
+              <div>
+                <dt>Platforms</dt>
+                <dd>Android & iOS</dd>
+              </div>
+              <div>
+                <dt>Focus</dt>
+                <dd>Simple, scalable experiences</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="hero-visual">
+            <div class="showcase-card">
+              <div class="showcase-glow" aria-hidden="true"></div>
+              <img
+                class="showcase-icon"
+                src="assets/logo2.png"
+                alt="Countdown Event application icon"
+              />
+
+              <div class="showcase-copy">
+                <p class="showcase-label">Featured app</p>
+                <h2>Countdown Event</h2>
+                <p>
+                  A warm, memorable countdown experience for important dates,
+                  milestones, and personal moments.
+                </p>
+              </div>
+
+              <div class="showcase-platforms" aria-label="Platforms">
+                <span>Android</span>
+                <span>iOS</span>
+                <span>Easy to scale</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="about-section" id="about">
+          <div class="section-heading">
+            <p class="eyebrow">About me</p>
+            <h2>Building mobile apps with a simple product system.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-card">
+              <h3>What I make</h3>
+              <p>
+                I create Android and iOS apps with clear purpose, focused
+                features, and a lightweight product structure that can grow over
+                time.
+              </p>
+            </div>
+
+            <div class="about-card">
+              <h3>How I design</h3>
+              <p>
+                I prefer simple layouts, strong branding, and flexible sections
+                so each new app can be added without rebuilding the whole site.
+              </p>
+            </div>
+
+            <div class="about-card">
+              <h3>Why this page works</h3>
+              <p>
+                This landing page is intentionally easy to maintain. New products
+                can be added through a small data list, while the design stays
+                consistent across the full portfolio.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="products-section" id="products">
+          <div class="section-heading">
+            <p class="eyebrow">Products</p>
+            <h2>Current app portfolio</h2>
+            <p>
+              Starting with Countdown Event, with room to add more Android and
+              iOS products as the portfolio grows.
+            </p>
+          </div>
+
+          <div class="product-grid" data-product-grid></div>
+          <noscript>
+            <p class="noscript-copy">
+              Countdown Event is the first Android and iOS app in this
+              portfolio. Enable JavaScript to load the full product list
+              automatically as more apps are added.
+            </p>
+          </noscript>
+        </section>
+
+        <section class="system-section">
+          <div class="section-heading">
+            <p class="eyebrow">Built to grow</p>
+            <h2>A simple structure that scales with new releases.</h2>
+          </div>
+
+          <div class="system-grid">
+            <article class="system-card">
+              <span>01</span>
+              <h3>Reusable sections</h3>
+              <p>
+                Hero, about, products, and contact blocks are already in place
+                for future apps.
+              </p>
+            </article>
+
+            <article class="system-card">
+              <span>02</span>
+              <h3>Single source of content</h3>
+              <p>
+                Product cards are rendered from a small JavaScript data array,
+                keeping updates fast and organized.
+              </p>
+            </article>
+
+            <article class="system-card">
+              <span>03</span>
+              <h3>Mobile-first layout</h3>
+              <p>
+                The page is responsive by default, so it works cleanly across
+                phones, tablets, and desktops.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+          <div class="contact-panel">
+            <p class="eyebrow">Next release</p>
+            <h2>More app products can be added here anytime.</h2>
+            <p>
+              This page is ready to grow into a full product landing site for
+              your Android and iOS portfolio.
+            </p>
+            <a class="button button-primary" href="#products">View First App</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>Dev Obsessed</p>
+        <p>Android & iOS app products</p>
+      </footer>
+    </div>
+
+    <script src="site.js"></script>
+  </body>
+</html>
